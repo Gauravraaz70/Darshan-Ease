@@ -148,6 +148,11 @@ Ticket Service
 
 Data is stored/retrieved from Database.
 
+
+Task 2.
+
+![image alt]https://github.com/Gauravraaz70/Darshan-Ease/blob/1385eb3f3ae5d5a32bb77ab3b7cfd4508d98f5f0/Er%20Diagram.png
+
 Summary:- “DarshanEase follows a microservices-based architecture. The system consists of a frontend interface hosted on a web server, connected to backend services through an API Gateway.
 Authentication Service ensures secure access, while specialized services such as Darshan Service, Booking Service, Temple Service, Seat Service, and Ticket Service handle their respective functionalities.
 All persistent data is stored in a centralized database.”
