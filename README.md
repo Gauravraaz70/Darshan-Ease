@@ -536,3 +536,201 @@ Security	JWT, Password Hashing
 Payment	Razorpay/Stripe
 Admin Control	Dashboard, reports, management
 
+Task 4
+
+
+🌸 DARSHAN EASE – Roles and Responsibilities
+
+The DarshanEase system consists of three main roles:
+
+Devotee (User)
+
+Organizer (Temple Manager)
+
+Admin (System Administrator)
+
+👤 1️⃣ Devotee (User Role)
+4
+🔹 Responsibilities
+🔐 Registration
+
+Create an account using:
+
+Name
+
+Email
+
+Password
+
+Authenticate securely using login credentials.
+
+👤 Profile Management
+
+Update:
+
+Name
+
+Email
+
+Password
+
+Manage personal information securely.
+
+🛕 Darshan Booking
+
+View available temples.
+
+Check darshan slots (date & time).
+
+Select preferred slot.
+
+Enter number of devotees.
+
+Complete ticket booking.
+
+Receive electronic ticket.
+
+⭐ Feedback & Rating
+
+Provide:
+
+Ratings for temple experience.
+
+Comments or suggestions.
+
+🚪 Logout
+
+Securely logout from the DarshanEase system.
+
+🏛 2️⃣ Organizer (Temple Role)
+4
+🔹 Responsibilities
+👤 Profile Management
+
+Update personal details:
+
+Email
+
+Name
+
+Password
+
+⏳ Darshan Slot Management
+
+Create darshan slots.
+
+Set:
+
+Date
+
+Start time
+
+End time
+
+Slot capacity
+
+Mark special slots (VIP / Festival).
+
+Update availability.
+
+Close or cancel slots if needed.
+
+🎟 Booking Management
+
+View all bookings.
+
+Monitor slot capacity.
+
+Assign slots manually (if required).
+
+Modify bookings if necessary.
+
+🔔 Notification Handling
+
+Receive notifications for:
+
+New bookings
+
+Cancellations
+
+Slot updates
+
+🚪 Logout
+
+Logout securely from the system.
+
+🛠 3️⃣ Admin (System Administrator Role)
+4
+🔹 Responsibilities
+⚙ System Management
+
+Full control over:
+
+Users
+
+Organizers
+
+Temples
+
+Slots
+
+Bookings
+
+Maintain system security.
+
+Manage configurations.
+
+👥 Devotee Management
+
+Create, update, delete devotee accounts.
+
+Monitor user activities.
+
+Manage ratings and feedback.
+
+🏛 Temple Organizer Management
+
+Create, update, delete organizer accounts.
+
+Assign organizers to temples.
+
+🗓 Facility & Slot Management
+
+Schedule darshan slots.
+
+Allocate resources.
+
+Manage temple capacity.
+
+Handle maintenance-related slot closures.
+
+🎉 Events Management
+
+Create temple events.
+
+Update event details.
+
+Delete events if necessary.
+
+📊 Reporting & Analytics
+
+View:
+
+Booking statistics
+
+Popular temples
+
+Revenue reports
+
+Daily / Monthly activity trends
+
+🚪 Logout
+
+Securely logout from DarshanEase.
+
+🔷 Role Hierarchy Summary
+Role	Access Level	Control Scope
+Devotee	Limited	Personal bookings & profile
+Organizer	Medium	Temple & slot management
+Admin	Full	Complete system control
+
