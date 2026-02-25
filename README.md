@@ -299,3 +299,240 @@ DarshanSlot → Booking	1 : M
 
 There are no many-to-many relationships, which makes the schema simple and normalized.
 
+
+Task 3 
+
+🌸 DARSHAN EASE – System Features
+1️⃣ Devotee Module (User Side)
+🔐 1. Devotee Registration & Authentication
+
+Users can create an account with name, email, phone, password.
+
+Secure login using JWT authentication.
+
+Password encryption using bcrypt.
+
+Forgot password & email verification (optional enhancement).
+
+🏛 2. Darshan Listings
+4
+
+Displays:
+
+Temple Name
+
+Location
+
+Darshan Date
+
+Start Time & End Time
+
+Available Slots
+
+Filters:
+
+By Date
+
+By Temple
+
+By Availability
+
+🛕 3. Temple Selection
+
+Shows detailed temple information:
+
+Location (City, State)
+
+Description
+
+Special Darshan types (VIP, General, Festival)
+
+Example temples you can use for demo:
+
+Tirupati Balaji Temple
+
+Kashi Vishwanath Temple
+
+Vaishno Devi Temple
+
+⏳ 4. Slot Selection
+
+Devotee selects:
+
+Date
+
+Time slot
+
+Number of devotees
+
+System checks:
+
+Real-time availability
+
+Maximum slot capacity
+
+🎟 5. Ticket Booking
+
+Booking includes:
+
+Booking ID (Auto Generated)
+
+Temple ID
+
+Slot ID
+
+Number of devotees
+
+Total Amount
+
+Status:
+
+Confirmed
+
+Cancelled
+
+Pending
+
+💳 6. Donation Integration
+
+Integrate payment gateway:
+
+Razorpay / Stripe (for demo)
+
+Payment for:
+
+Ticket amount
+
+Optional donation
+
+Secure transaction handling.
+
+📧 7. Booking Confirmation
+
+After successful payment:
+
+Confirmation Page
+
+Email with:
+
+Booking ID
+
+Temple Name
+
+Date & Time
+
+QR Code (Optional)
+
+📜 8. Booking History
+
+Users can:
+
+View past bookings
+
+View upcoming bookings
+
+Cancel booking (before cutoff time)
+
+Download ticket (PDF)
+
+2️⃣ Organizer Module (Temple Side)
+🖥 Organizer Dashboard
+4
+
+Organizer can:
+
+Add temple details
+
+Create darshan slots
+
+Set slot capacity
+
+Monitor bookings
+
+Issue manual tickets (if required)
+
+🗂 Darshan Slot Management
+
+Organizer can:
+
+Create slots (Date + Start Time + End Time)
+
+Update capacity
+
+Close slot
+
+View booked count
+
+3️⃣ Admin Module (System Level)
+🛠 Admin Dashboard
+
+Admin controls:
+
+Users
+
+Organizers
+
+Temples
+
+Slots
+
+Bookings
+
+Admin has full CRUD access.
+
+📊 Reporting & Analytics
+
+Total bookings per temple
+
+Popular darshan timings
+
+Daily / Monthly revenue
+
+Devotee demographics
+
+Cancellation ratio
+
+Charts:
+
+Bar Graph → Temple Popularity
+
+Line Chart → Booking Trends
+
+Pie Chart → Slot Distribution
+
+4️⃣ System-Level Features
+🔄 Real-Time Slot Availability
+
+When booking happens:
+
+Slot capacity decreases
+
+When cancellation:
+
+Slot capacity increases
+
+Use:
+
+MongoDB transactions
+
+or Optimistic locking
+
+🌐 Integration with External APIs
+
+Temple information APIs
+
+Payment Gateway API
+
+Email Service (SendGrid / NodeMailer)
+
+SMS API (Optional)
+
+🔷 Complete Feature Categorization (For Viva)
+Layer	Features
+Frontend	Temple listing, slot selection, booking UI
+Backend	Authentication, slot management, booking logic
+Database	Users, Temples, Slots, Bookings, Payments
+Security	JWT, Password Hashing
+Payment	Razorpay/Stripe
+Admin Control	Dashboard, reports, management
+
