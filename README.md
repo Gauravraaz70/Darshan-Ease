@@ -734,3 +734,146 @@ Devotee	Limited	Personal bookings & profile
 Organizer	Medium	Temple & slot management
 Admin	Full	Complete system control
 
+Task 5
+
+📌 Overview
+
+This user flow describes the complete journey of a devotee within the Temple Darshan Ticket Booking Application (DarshanEase) — from entering the app to completing a booking or viewing past reservations.
+
+The flow ensures a smooth, structured, and user-friendly booking experience.
+
+🔁 Step-by-Step User Journey
+1️⃣ Start
+
+The user opens the Temple Darshan Ticket Booking App.
+
+The system initializes the session.
+
+2️⃣ Home Page
+
+User lands on the Home Page.
+
+Displays:
+
+Overview of darshan services
+
+Available temples
+
+Navigation options
+
+From here, users can:
+
+Access profile
+
+Select temple
+
+View bookings
+
+3️⃣ Access Profile
+
+Users can:
+
+View personal details
+
+Update name, email, password
+
+View booking history
+
+Ensures personalized experience and account management.
+
+4️⃣ Temple Selection
+
+Users select a temple for darshan.
+
+System displays:
+
+Temple name
+
+Location
+
+Darshan timings
+
+Available slots
+
+5️⃣ Slot Selection
+
+User views available darshan slots.
+
+Displays:
+
+Date
+
+Start time
+
+End time
+
+Availability status
+
+User selects preferred slot.
+
+6️⃣ Ticket Booking
+
+User confirms:
+
+Selected temple
+
+Chosen slot
+
+System:
+
+Processes booking
+
+Generates confirmation
+
+Issues electronic ticket
+
+7️⃣ View Bookings
+
+Users can:
+
+View current bookings
+
+View past bookings
+
+Check confirmation status
+
+Access/download e-ticket
+
+8️⃣ End
+
+User completes their activity.
+
+Session may continue for further actions or logout.
+
+🎯 Flow Logic Summary
+
+Start
+⬇
+Home Page
+⬇
+Access Profile
+⬇
+Temple Selection
+⬇
+Slot Selection
+⬇
+Ticket Booking
+⬇
+View Bookings
+⬇
+End
+
+✅ Key Design Characteristics
+
+Linear and intuitive navigation
+
+Clear separation of responsibilities
+
+User-centric booking flow
+
+Profile-driven personalization
+
+Transparent slot visibility
+
+Digital ticket generation
+
