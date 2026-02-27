@@ -736,6 +736,9 @@ Admin	Full	Complete system control
 
 Task 5
 
+
+![image](https://github.com/Gauravraaz70/Darshan-Ease/blob/550afc642ea1761e5473141c0c27a35a3de68e02/User%20Flow.png)
+
 📌 Overview
 
 This user flow describes the complete journey of a devotee within the Temple Darshan Ticket Booking Application (DarshanEase) — from entering the app to completing a booking or viewing past reservations.
